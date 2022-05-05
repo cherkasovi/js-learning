@@ -1,2 +1,3 @@
-# js-learning
+# JS learning
+
 Just JS learning repo
