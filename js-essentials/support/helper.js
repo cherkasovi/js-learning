@@ -1,3 +1,7 @@
+import promptSync from "prompt-sync";
+const prompt = promptSync();
+//const prompt = require("prompt-sync")();
+
 export class Helper {
   constructor() {}
 
@@ -13,5 +17,9 @@ export class Helper {
         }
       }
     }
+  }
+
+  static readln(question = "", value = 0) {
+    return prompt(question, value);
   }
 }
