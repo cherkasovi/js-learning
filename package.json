@@ -3,6 +3,7 @@
   "description": "Just JS learning repo",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "dependencies": {
     "prompt-sync": "^4.2.0"
   },
